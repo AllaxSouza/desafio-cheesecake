@@ -66,8 +66,13 @@ ul {
 }
 
 @media (min-width: 1120px) {
- main {
   
+  body {
+    /* opacity: 0.6000000238418579; */
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  main {
   flex-direction: row;
   max-width: fit-content;
   gap: 16rem;
